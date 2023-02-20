@@ -1,0 +1,45 @@
+.reg-img {
+  width: 25%;
+}
+.doctor-name {
+  font-size: 15px;
+  font-weight: 600;
+  margin: 0px;
+}
+.doctors-education {
+  font-size: 12px;
+  color: #757575;
+}
+
+/* media */
+@media screen and (max-width: 767px) {
+  .name,
+  .birthday,
+  .division,
+  .password {
+    padding-bottom: 20px;
+  }
+  .voucher {
+    padding-top: 60px;
+    border: none !important;
+  }
+  .reg-img {
+    width: 30%;
+  }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+  .name,
+  .birthday,
+  .division,
+  .password {
+    padding-bottom: 20px;
+  }
+  .reg-img {
+    width: 60%;
+  }
+  .doctors-education {
+    font-size: 10px;
+    color: #757575;
+  }
+}

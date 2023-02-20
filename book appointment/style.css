@@ -1,0 +1,40 @@
+.div-img {
+  width: 10%;
+}
+.doctor-name {
+  font-size: 20px;
+  font-weight: 600;
+  margin: 0px;
+}
+.doctors-education {
+  font-size: 14px;
+  color: #757575;
+}
+.fa-bangladeshi-taka-sign {
+  font-size: 14px;
+}
+
+.time {
+  background-color: #d6d6d6;
+}
+
+/* .proceed-btn {
+  background-color: #dc3545;
+  color: white;
+}
+.proceed-btn:hover {
+  background-color: #f85e6e;
+  color: white;
+} */
+/* media */
+@media screen and (max-width: 767px) {
+  .div-img {
+    width: 45%;
+  }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+  .div-img {
+    width: 15%;
+  }
+}

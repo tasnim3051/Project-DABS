@@ -1,0 +1,55 @@
+body {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+.div-img {
+  width: 35%;
+}
+.doctor-bio {
+  margin-left: 25px;
+}
+.doctor-name {
+  font-size: 20px;
+  font-weight: 600;
+  margin: 0px;
+}
+.doctors-education {
+  font-size: 14px;
+  color: #757575;
+}
+.fa-bangladeshi-taka-sign {
+  font-size: 14px;
+}
+.details-a {
+  text-decoration: none;
+  color: #dc3545;
+}
+.about-text-sec {
+  height: 30vh !important;
+  border: 1px solid red;
+}
+.overview {
+  overflow-y: hidden;
+}
+.text {
+  overflow-y: hidden;
+}
+/* media */
+@media screen and (max-width: 767px) {
+  .profile {
+    padding: 0px 15px !important;
+    margin-top: 20px !important;
+  }
+  .doctor-bio {
+    margin: 20px 0px 0px 0px;
+  }
+  .profile-part-1 {
+    flex-direction: column;
+  }
+  .profile-part-2 {
+    margin-top: 20px;
+    align-items: flex-start !important;
+  }
+}

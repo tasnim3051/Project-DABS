@@ -1,0 +1,12 @@
+/* media */
+@media screen and (max-width: 767px) {
+  .heading {
+    padding-bottom: 0px !important;
+  }
+  .date-input {
+    margin: 15px 0px;
+  }
+  .btn-lets-find {
+    width: 100%;
+  }
+}
